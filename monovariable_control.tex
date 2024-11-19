@@ -1,0 +1,70 @@
+\section{Lab 1}
+\subsection{Motivation}\label{sec:lab1_mot}
+The motivation behind the first lab task was to create a PD regulator to the linearized
+model of the helicopter \ref{eq:lin_model} for a cause to control its pitch. The equations
+of motion can be find in \ref{eq:model_1}. For a simple visualization of the helicopter, see \ref{fig:helicopter}.
+
+\begin{subequations}\label{eq:model_1}
+	\begin{align}
+		\ddot{p}  &= -\frac{K_{f}l_{p}V_{d}}{J_{p}} = \frac{L_1Vd}{J_p} \label{eq:model_1_p} \\
+		\ddot{e}  &= (2m_pgl_h-m_cgl_c)cos(e)+K_fl_hV_scos(p) = L_2cos(e)+L_3V_scos(p)\label{eq:model_1_e} \\
+		\ddot{\lambda} &= \frac{l_hk_fV_scos(e)sin(p)}{J_{\lambda}} = L_4V_scos(e)sin(p) \label{eq:model_1_l} \\
+	\end{align}
+\end{subequations}
+
+\subsection{Lab preperation}\label{sec:lab1_prep}
+There were several tasks which needed to be done as preperation to the first lab day.
+The first task was to derive the equations of motion from a given diagram of the helicopter \ref{pic:heli_model}.
+This task required thoroughly analyzing the forces which the helicopter is affected by.
+When this was done, it was needed to linearize the model around the equlibrium (all system states equal zero) represented by \ref{pic:heli_model} such that 
+creating controllers would be easier. We were now ready to implement a PD controller given by \ref{eq:PD}
+and insert this into the linearized equation of pitch acceleration, to control the pitch to a given reference.
+The last preperation for lab 1 was to make a test plan for pole placements to the pitch control. We used the equations in \ref{eq:pole_place}.
+
+\begin{subequations}\label{eq:lin_model}
+	\begin{align}
+        \tilde{V_d} &= V_d-V_{d,origo} = V_d\\
+        \tilde{V_s} &= V_s-V_{s,origo} = V_s+\frac{L_2}{L_3}\\
+		\ddot{p}  &= \frac{L_1\tilde{V_d}}{J_p} = K_1V_d\label{eq:lin_p} \\
+		\ddot{e}  &= \frac{L_3\tilde{V_s}}{J_e} = K_2\tilde{V_s}\label{eq:lin_e} \\
+		\ddot{\lambda} &= \frac{L_4L_2\tilde{p}}{L_3J_{\lambda}} = K_3p\label{eq:lin_l} \\
+	\end{align}
+\end{subequations}
+\begin{subequations}\label{eq:PD}
+	\begin{align}
+        V_d &= K_{pp}(pc-p)-K_{pd}\dot{p}
+	\end{align}
+\end{subequations}
+\begin{subequations}\label{eq:pole_place}
+	\begin{align}
+    K_{pd} &= -\frac{s_2+s_1}{K_1}\\
+    K_{pp} &= \frac{s_2(s_2-s_1)}{K_1(\frac{s_2}{s_1}-1)}
+	\end{align}
+\end{subequations}
+
+\subsection{Hypotheses/Test plan}
+We wanted to expirement the controller by setting the poles at several different positions, including real and complex numbers.
+We prepared twelve different tests, with hyoptheses coming from control theory which as for poles in LHS of s plane are exponentially stable, RHS are unstable and poles in origo are stable.
+The tabular \ref{tab:testskjema_lab1} gives an overview of our tests and their s-values, stability result and hypotheses.
+
+\begin{center}
+    \begin{tabular}{||c c c c c||} 
+     \hline
+     Test & Poles & Pitch ref & Hypotheses & Result \\ [0.5ex] 
+     \hline\hline
+     1 & -1,-1 & 87837 & 787 &  \\ 
+     \hline
+     2 & -5,-5 & 78 & 5415 &  \\
+     \hline
+     3 & -1  & 778 & 7507 &  \\
+     \hline
+     4 & 545 & 18744 & 7560 &  \\
+     \hline
+     5 & 88 & 788 & 6344 &  \\ [1ex] 
+     \hline
+    \end{tabular}
+    \end{center}
+\subsection{Results}
+
+\subsection{}
+
