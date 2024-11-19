@@ -135,16 +135,29 @@ P = \begin{bmatrix}
 
 
 Trying different values of poles. 
-From small values to bigger in the Left Half Plane.
+From small absolute values to bigger in the Left Half Plane.
 We tried pole values: -2, -9 ,-90.
-The reasoning was that smaller values of poles will correspond to slower dynamics and a slower convergence rate. On the other hand model uncertainties will be increased with too big values of poles. The helicopter lab has states that change quickly. So we thought bigger pole values would be better.
+The reasoning was that smaller values of poles will correspond to slower estimation and a slower convergence rate which has more lag. On the other hand model uncertainties will be increased with too big values of poles. The helicopter lab has states that change quickly. So we thought bigger pole values would be better.
 The first value was bad, the second was okay, and the third had a good smooth result but had a offset.
 \vspace{2em}
 For the smaller pole values the estimates are less accurate. And for the larger pole values there is a offset(lag). 
 For some estimates the difference is hard to spot like for the Apples.
 The difference between small and big pole values can clearly be seen between Blueberry 1 and Blueberry 4. 
+For the smaller pole values the estimates are less accurate. And for the larger pole values there is a offset(lag). 
+For some estimates the difference is hard to spot like for the Apples.
+The difference between small and big pole values can clearly be seen between Blueberry 1 and Blueberry 4. 
+Blueberry 1 is a faster estimator with more noise. Which corresponds to bigger absolute values of the poles.
+Blueberry 4 is a slower estimator with more lag which corresponds to lower absolute pole values. 
+
 
 \vspace{2em}
+
+For the smaller pole values the estimates are less accurate. And for the larger pole values there is a offset(lag). 
+For some estimates the difference is hard to spot like for the Apples.
+The difference between small and big pole values can clearly be seen between Blueberry 1 and Blueberry 4. 
+Blueberry 1 is a faster estimator with more noise. Which corresponds to bigger absolute values of the poles.
+Blueberry 4 is a slower estimator with more lag which corresponds to lower absolute pole values. 
+
 
 \title{\textbf{Conclusion}}
 \maketitle
