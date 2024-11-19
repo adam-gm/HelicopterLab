@@ -1,0 +1,148 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{Berland2010}{book}{}
+    \name{author}{1}{}{%
+      {{hash=BH}{%
+         family={Berland},
+         familyi={B\bibinitperiod},
+         given={H},
+         giveni={H},
+      }}%
+    }
+    \strng{namehash}{BH1}
+    \strng{fullhash}{BH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{note}{\url{http://www.pvv.ntnu.no/~berland/latex/latexintro4up.pdf}}
+    \field{title}{{En introduksjon til Latex}}
+    \field{year}{2010}
+  \endentry
+
+  \entry{BiberBibtexEtc}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{howpublished}{\url{http://tex.stackexchange.com/questions/25701/bibtex-vs-biber-and-biblatex-vs-natbib}}
+    \field{note}{Accessed: 2017-02-13}
+    \field{title}{bibtex vs. biber and biblatex vs. natbib}
+  \endentry
+
+  \entry{Chen2014}{book}{}
+    \name{author}{1}{}{%
+      {{hash=CCT}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Chi-Tsong},
+         giveni={C\bibinithyphendelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Oxford University Press, Incorporated}%
+    }
+    \strng{namehash}{CCT1}
+    \strng{fullhash}{CCT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{isbn}{9780199964543}
+    \field{title}{Linear System Theory and Design}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Downes2002}{book}{}
+    \name{author}{1}{}{%
+      {{hash=DM}{%
+         family={Downes},
+         familyi={D\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DM1}
+    \strng{fullhash}{DM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{note}{\url{ftp://ftp.ams.org/pub/tex/doc/amsmath/short-math-guide.pdf}}
+    \field{title}{{Short Math Guide for LATEX}}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Oetiker2011}{book}{}
+    \name{author}{4}{}{%
+      {{hash=OT}{%
+         family={Oetiker},
+         familyi={O\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PH}{%
+         family={Partl},
+         familyi={P\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=HI}{%
+         family={Hyna},
+         familyi={H\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Schlegl},
+         familyi={S\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OT+1}
+    \strng{fullhash}{OTPHHISE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{note}{\url{http://tobi.oetiker.ch/lshort/lshort.pdf}}
+    \field{title}{{The Not So Short Introduction to LATEX 2e}}
+    \field{year}{2011}
+  \endentry
+
+  \entry{InputVsInclude}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{\url{http://tex.stackexchange.com/questions/246/when-should-i-use-input-vs-include}}
+    \field{note}{Accessed: 2017-02-13}
+    \field{title}{When should I use \texttt{input} vs. \texttt{include}?}
+  \endentry
+
+  \entry{WikibookLatex}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{howpublished}{\url{https://en.wikibooks.org/wiki/LaTeX}}
+    \field{note}{Accessed: 2016-08-30}
+    \field{title}{Wikibooks LaTeX}
+  \endentry
+\enddatalist
+\endinput

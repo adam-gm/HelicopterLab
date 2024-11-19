@@ -1,0 +1,20 @@
+\babel@toc {USenglish}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Software}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Other Comments}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Problem Description}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Illustrations}{3}{subsection.2.1}%
+\contentsline {section}{\numberline {3}General LaTeX tips}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Matrix Equations}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Tables}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}The \texttt {\textbackslash {input}\{\}} command}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Citations and Reference Management}{6}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Results and Figures}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Results and Discussion}{8}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Conclusion}{11}{section.5}%
+\contentsline {section}{Appendix}{12}{section.5}%
+\contentsline {section}{\numberline {A}MATLAB Code}{12}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}plot\_constraint.m}{12}{subsection.A.1}%
+\contentsline {section}{\numberline {B}Simulink Diagrams}{12}{appendix.B}%
+\contentsline {subsection}{\numberline {B.1}A Simulink Diagram}{12}{subsection.B.1}%
+\contentsline {section}{References}{14}{figure.7}%
