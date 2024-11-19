@@ -45,26 +45,87 @@ The last preperation for lab 1 was to make a test plan for pole placements to th
 \subsection{Hypotheses/Test plan}
 We wanted to expirement the controller by setting the poles at several different positions, including real and complex numbers.
 We prepared twelve different tests, with hyoptheses coming from control theory which as for poles in LHS of s plane are exponentially stable, RHS are unstable and poles in origo are stable.
-The tabular \ref{tab:testskjema_lab1} gives an overview of our tests and their s-values, stability result and hypotheses.
-
-\begin{center}
+The table \ref{tab:testskjema_lab1} gives an overview of our tests and their s-values, stability result and hypotheses.
+\begin{table}[h]
+\centering
+\phantomsection % Creates an anchor for the hyperlink
+ % Place the label at the top of the table
     \begin{tabular}{||c c c c c||} 
      \hline
      Test & Poles & Pitch ref & Hypotheses & Result \\ [0.5ex] 
      \hline\hline
-     1 & -1,-1 & 87837 & 787 &  \\ 
+     1 & -1,-1 & 0 & Exp. Stability & Exp. Stability \\ 
      \hline
-     2 & -5,-5 & 78 & 5415 &  \\
+     2 & -5,-5 & 0 & Exp. Stability & Exp. Stability \\
      \hline
-     3 & -1  & 778 & 7507 &  \\
+     3 & $-1\pm j5$  & 0 & Exp. Stability & Exp. Stability  \\
      \hline
-     4 & 545 & 18744 & 7560 &  \\
+     4 & $-1\pm j$ & 0 & Exp. Stability & Exp. Stability \\
      \hline
-     5 & 88 & 788 & 6344 &  \\ [1ex] 
+     5 & $-5\pm j$ & 0 & Exp. Stability & Exp. Stability \\  
+     \hline
+     6 & $-5\pm j5$ & 0 & Exp. Stability & Exp. Stability \\ 
+     \hline
+     7 & $\pm j$ & 0 & Marginal Stability & Unstable \\  
+     \hline
+     8 & $\pm j5$ & 0 & Marginal Stability & Unstable \\ 
+     \hline
+     9 & $0$ & 0 & Marginal Stability & Unstable \\ 
+     \hline
+     10 & $1\pm j$ & 0 & Unstable & Unstable \\ 
+     \hline
+     11 & -1,1 & 0 & Unstable & Unstable \\ 
+     \hline
+     12 & 1,1 & 0 & Unstable & Unstable \\ [1ex]
      \hline
     \end{tabular}
-    \end{center}
+    \label{tab:testskjema_lab1}
+    \caption{Test scheme}
+\end{table}
 \subsection{Results}
+We have decided to plot results of only five of the done tests, such that the plots are not redundant.
+The plot \ref{fig:pitch_plot} visualize a time series for test 1,4,7,9 and 11. Y-axis is the pitch measured in radians. X-axis shows each timestep. The reason behind this is to include different pole-values which
+with also different specific hypotheses and result. For all tests the reference of the pitch was at 0 rad. We added a 
+disturbance at 15s which lasted 0.2 seconds. This is specifically visible for test 1 and test 4.
 
-\subsection{}
+When looking at plot \ref{fig:pitch_plot} test 9 and test 11 is cut off early. The reason behind this is that 
+the pitch became so unstable, where at a point it could provide harm to the helicopter. As safety measure we cut its power early. 
+Test 1 and 4 have a similar run, which is expected as they both have same real part. However even though test 4 have an imaginary part, 
+it dosent seem to add more swings than the one without an imaginary part.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=1\textwidth]{figures/pitchlab1.png}
+\caption{Timeseries of pitch angle in [rad]}
+\label{fig:pitch_plot}
+\end{figure}
+
+\begin{table}[h]
+    \centering
+    \phantomsection % Creates an anchor for the hyperlink
+     % Place the label at the top of the table
+        \begin{tabular}{||c c c c c||} 
+         \hline
+         Test & Mean & Std & Min value & Max value \\ [0.5ex] 
+         \hline\hline
+         1 & -0.000549 & 0.0892 & -0.0936 & 0.416  \\ 
+         \hline
+         4 & -0.00547 & 0.0592 & -0.0460 & 0.394 \\
+         \hline
+         7 & -0.0429 & 0.518 & -1.11 & 0.989  \\
+         \hline
+         9 & 0.255 & 0.632 & -0.764 & 1.72 \\
+         \hline
+         11 & 0.0822 & 0.696 & -1.84 &1.72 \\[1ex]
+         \hline
+        \end{tabular}
+        \label{tab:testskjema_lab1}
+        \caption{Test scheme}
+    \end{table}
+
+\subsection{Conclusion}
+The results match our hypotheses for the tests well. Poles in left hand side of the s plane give exp. stability and poles in right hand side give unstability. However if the real parts of the poles were close to the 
+imaginary axis, the closed loop system became unstable. This is likely a result of the real system being heavily unlinear, 
+and us working with a simple linearized model of it, leaving several margins of error. Sadly when saving data from the lab day we didnt accompany time series of the controller output, which would be a valuable asset to discuss in this report. 
+It would be interesting to visualize and compare values the PD controller generated throughout the tests.  
 
