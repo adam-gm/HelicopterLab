@@ -190,3 +190,5 @@ labreport.synctex.gz
 *.out
 *.toc
 *.pdf
+*.log
+*.pdf
