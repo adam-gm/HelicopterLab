@@ -1,25 +1,11 @@
 \babel@toc {USenglish}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Software}{1}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Other Comments}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Problem Description}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Illustrations}{3}{subsection.2.1}%
-\contentsline {section}{\numberline {3}Multivariable control}{5}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Introduction}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Hypothesis and test plan}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Results}{6}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}$R = 5\mathbf {I},\tmspace +\thickmuskip {.2777em} Q=\mathbf {I}$}{6}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}$R = 100\mathbf {I},\tmspace +\thickmuskip {.2777em} Q=\mathbf {I}$}{7}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}$R = \mathbf {I},\tmspace +\thickmuskip {.2777em} 5Q=\mathbf {I}$}{7}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.4}$R = \mathbf {I},\tmspace +\thickmuskip {.2777em} 100Q=\mathbf {I}$}{8}{subsubsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {3.3.5}$R = \mathbf {I},\tmspace +\thickmuskip {.2777em} Q=\mathbf {I}$}{8}{subsubsection.3.3.5}%
-\contentsline {subsection}{\numberline {3.4}Conclusion}{9}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Results and Figures}{10}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Results and Discussion}{11}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Conclusion}{14}{section.5}%
-\contentsline {section}{Appendix}{15}{section.5}%
-\contentsline {section}{\numberline {A}MATLAB Code}{15}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}plot\_constraint.m}{15}{subsection.A.1}%
-\contentsline {section}{\numberline {B}Simulink Diagrams}{15}{appendix.B}%
-\contentsline {subsection}{\numberline {B.1}A Simulink Diagram}{15}{subsection.B.1}%
-\contentsline {section}{References}{17}{figure.12}%
+\contentsline {section}{\numberline {2}Lab 1}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Motivation}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Lab preperation}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Hypotheses/Test plan}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Results}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Conclusion}{4}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Conclusion}{5}{section.3}%
+\contentsline {section}{Appendix}{6}{section.3}%
+\contentsline {section}{\numberline {A}Helicopter diagram}{6}{appendix.A}%
