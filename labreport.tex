@@ -1,5 +1,5 @@
 \documentclass[11pt, a4paper, USenglish]{article} % change ``USenglish'' to ``norsk'' if applicable.
-
+\usepackage{subfig}
 \usepackage{kyblab} % Contains all included packages. See kyblab.sty.
 \usepackage{float}
 \addbibresource{bibliography.bib} % Makes the bibliography file available to biblatex.
@@ -8,8 +8,8 @@
 
 % Titlepage
 \title{LaTeX Lab Report Template}
-\author{Group 00\\Student 70000\\Student 70001\\Student 70002}
-\date{January 1, 1970}
+\author{Group 53\\Adam Godtland Moumen\\Tobias De La Plaza Domaas\\Carl Joakim Duraj}
+\date{20.11.2024}
 \begin{titlepage}
     \maketitle
     \begin{figure}
@@ -34,9 +34,7 @@
 \newpage
 \setcounter{page}{1}
 \include{intro}
-\include{part1}
-\include{part2}
-\include{part3}
+\include{monovariable_control}
 \include{conclusion}
 \include{appendix}
 % \input simply inserts the contents of the file, while \include forces a \newpage.
