@@ -44,24 +44,22 @@ The discrete system model is at the form \ref{eq:discrete_model} where as the ma
     \end{bmatrix}\label{eq:discrete_Cd}
     \end{align}
 \end{subequations}
-
-
 \subsection{Hypotheses/Test plan}
-For the tests we were supposed to change the Qd matrix, which has a role of specifying how much the Kalman filter should trust the model. A small Qd 
-means high trust in the model, while a high Qd means low trust and faster reaction to measurement updates. 
+For the tests we were supposed to change the Qd matrix, which has a role of specifying how much the Kalman filter should trust the model vs measurements. A small Qd 
+means high trust in the measurements, while a high Qd means low trust in measurements and high in model. 
 \begin{table}[h]
     \centering
     \phantomsection % Creates an anchor for the hyperlink
      % Place the label at the top of the table
-        \begin{tabular}{||c c c c c||} 
+        \begin{tabular}{||c c c c||} 
          \hline
-         Test & Poles & Pitch ref & Hypotheses & Result \\ [0.5ex] 
+         Test & Q  & Hypotheses & Result \\ [0.5ex] 
          \hline\hline
-         1 & -1,-1 & 0 & Exp. Stability & Exp. Stability \\ 
+         1 & 5 & Medium noise in state est. & Exp. Stability \\ 
          \hline
-         2 & -5,-5 & 0 & Exp. Stability & Exp. Stability \\
+         2 & 0.1 & Low noise in state est. & Exp. Stability \\
          \hline
-         3 & $-1\pm j5$  & 0 & Exp. Stability & Exp. Stability  \\ [1ex]
+         3 & 1000 & High noise in state est. & Exp. Stability  \\ [1ex]
          \hline
         \end{tabular}
         \label{tab:testskjema_lab4}
@@ -72,14 +70,12 @@ Because of the IMU (which is used to give measurements to the Kalman filter) has
 sample rate than Simulink, we were needed to adjust the Kalman filter program to that. 
 When there were duplicated measurements as input to the Kalman filter, we made the corrected
 state estimate and error covariance to be equal to the predicted state estimate and error covariance. See \ref{eq:slow_sample}.
-
 \begin{subequations}\label{eq:slow_sample}
     \begin{align}
     \hat{x} &= \bar{x}  \label{eq:bad_sample_x} \\
     \hat{P} &= \bar{P} \label{eq:bad_sample_p} \\
     \end{align}
 \end{subequations}
-
 The first task at the lab was to find an estimate on measurement noise. To do this we 
 created two different time series, one for the helicopter laying still and one for the helicopter in the linearization point.
 The estimated measurement noise used for the task corresponds to when the helicopter is stationary in its linearization point.
@@ -106,5 +102,56 @@ From this it seems that it is indifferent which of them is chosen for the Kalman
 \end{subequations}
 
 
+\begin{figure}[h!]
+    \centering
+    \subfloat[$Q_d$:5 on diagonal]{\includegraphics[width=0.3\textwidth]{figures/lab4test1pitch.png}}\hfill
+    \subfloat[$Q_d$:0.1 on diagonal]{\includegraphics[width=0.3\textwidth]{figures/lab4test2pitch.png}}\hfill
+    \subfloat[$Q_d$:1000 on diagonal]{\includegraphics[width=0.3\textwidth]{figures/lab4test3pitch.png}}\hfill
+    \subfloat[$Q_d$:5 on diagonal]{\includegraphics[width=0.3\textwidth]{figures/lab4test1ele.png}}\hfill
+    \subfloat[$Q_d$:0.1 on diagonal]{\includegraphics[width=0.3\textwidth]{figures/lab4test2ele.png}}\hfill
+    \subfloat[$Q_d$:1000 on diagonal]{\includegraphics[width=0.3\textwidth]{figures/lab4test3ele.png}}
+    \caption{Time series of pitch and elevation rate during three tests.}
+    \label{fig:lab4_charts}
+\end{figure}           
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.45\textwidth} % Adjust the width as needed
+        \centering
+        \begin{tabular}{||c c c c||} 
+            \hline
+            Test & Mean & Std & Max abs value \\ [0.5ex] 
+            \hline\hline
+            1 & 0.265 & 0.515 & 1.80  \\ 
+            \hline
+            2 & 0.256 & 0.467 & 1.26 \\
+            \hline
+            3 & 0.209 & 0.506 & 2.06  \\[1ex]
+            \hline
+        \end{tabular}
+        \caption{Results for predicted pitch}
+        \label{tab:res_lab4pich}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.45\textwidth} % Adjust the width as needed
+        \centering
+        \begin{tabular}{||c c c c||} 
+            \hline
+            Test & Mean & Std & Max abs value \\ [0.5ex] 
+            \hline\hline
+            1 & 0.0515 & 0.398 & 1.47   \\ 
+            \hline
+            2 & 0.0591 & 0.454 & 1.78  \\
+            \hline
+            3 & 0.0445 & 0.340 & 1.34 \\[1ex]
+            \hline
+        \end{tabular}
+        \caption{Results for predicted elevation rate}
+        \label{tab:res_lab4elerate}
+    \end{minipage}
+\end{figure}
+
 
 \subsection{Conclusion}
+It was interesting to use Kalman filter to estimate the states of the system. However it seems that 
+the choise of Qd indifferently affects the estimated states. It seems to be a lot of state estimation noise for all three Qd matrix tests.
