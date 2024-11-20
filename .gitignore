@@ -184,3 +184,9 @@ TSWLatexianTemp*
 labreport.pdf
 labreport.pdf
 labreport.synctex.gz
+*.aux
+*.fls
+*.log
+*.out
+*.toc
+*.pdf
