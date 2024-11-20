@@ -1,4 +1,4 @@
-\section{Multivariable control}
+\section{Lab 2 - Multivariable control}
 \subsection{Introduction}
 As the helicopter is a complex system with multiple states, it is reasonable to implement a multivariable control system.
 The system is controlled by an LQR-controller, as it provides an intuitive way to design a control rule based on minimizing a cost function. 
@@ -91,7 +91,7 @@ As for with or without integral gain our hypothesis was that the integral gain w
 
 \subsection{Results}
 Here are the test results for all the cases
-\subsubsection{$R = 5\mathbf{I},\; Q=\mathbf{I}$}
+\subsubsection*{$R = 5\mathbf{I},\; Q=\mathbf{I}$}
 The pitch response fails to even respond to the reference at all without the integral action. The integral helps some but the response is still very sluggish.
 \begin{figure}[H]
 	\centering
@@ -101,7 +101,7 @@ The pitch response fails to even respond to the reference at all without the int
 \end{figure}
 
 
-\subsubsection{$R = 100\mathbf{I},\; Q=\mathbf{I}$}
+\subsubsection*{$R = 100\mathbf{I},\; Q=\mathbf{I}$}
 As with the previous test, the response without integral fails to respond at all. THe integral helps some, but is way too slow to even reach the reference point.
 \begin{figure}[H]
 	\centering
@@ -110,7 +110,7 @@ As with the previous test, the response without integral fails to respond at all
 	\label{}
 \end{figure}
 
-\subsubsection{$R = \mathbf{I},\; 5Q=\mathbf{I}$}
+\subsubsection*{$R = \mathbf{I},\; 5Q=\mathbf{I}$}
 Here the pitch is able to track the reference better, but does converge to a stationary error without the integral. The integral does overshoot a bit, but converges after to the reference. This can also be seen towards the end of the series. 
 \begin{figure}[H]
 	\centering
@@ -119,7 +119,7 @@ Here the pitch is able to track the reference better, but does converge to a sta
 	\label{}
 \end{figure}
 
-\subsubsection{$R = \mathbf{I},\; 100Q=\mathbf{I}$}
+\subsubsection*{$R = \mathbf{I},\; 100Q=\mathbf{I}$}
 The reference is being followed by both the controllers. The integral action eliminates the stationary error.
 \begin{figure}[H]
 	\centering
@@ -128,7 +128,7 @@ The reference is being followed by both the controllers. The integral action eli
 	\label{}
 \end{figure}
 
-\subsubsection{$R = \mathbf{I},\; Q=\mathbf{I}$}
+\subsubsection*{$R = \mathbf{I},\; Q=\mathbf{I}$}
 Both signals track the reference, but both controllers are a bit slower to reach it. Also the controller with no integral action has a stationary error.
 \begin{figure}[H]
 	\centering
