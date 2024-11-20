@@ -47,6 +47,7 @@ The discrete system model is at the form \ref{eq:discrete_model} where as the ma
 \subsection{Hypotheses/Test plan}
 For the tests we were supposed to change the Qd matrix, which has a role of specifying how much the Kalman filter should trust the model vs measurements. A small Qd 
 means high trust in the measurements, while a high Qd means low trust in measurements and high in model. 
+During the tests we added a step to pi/4 in the pitch reference from 3s to 8s. 
 \begin{table}[h]
     \centering
     \phantomsection % Creates an anchor for the hyperlink
@@ -55,11 +56,11 @@ means high trust in the measurements, while a high Qd means low trust in measure
          \hline
          Test & Q  & Hypotheses & Result \\ [0.5ex] 
          \hline\hline
-         1 & 5 & Medium noise in state est. & Exp. Stability \\ 
+         1 & 5 & Medium noise in state est. & Noisy \\ 
          \hline
-         2 & 0.1 & Low noise in state est. & Exp. Stability \\
+         2 & 0.1 & Low noise in state est. & Noisy \\
          \hline
-         3 & 1000 & High noise in state est. & Exp. Stability  \\ [1ex]
+         3 & 1000 & High noise in state est. & Noisy  \\ [1ex]
          \hline
         \end{tabular}
         \label{tab:testskjema_lab4}
@@ -101,7 +102,6 @@ From this it seems that it is indifferent which of them is chosen for the Kalman
     \end{align}
 \end{subequations}
 
-
 \begin{figure}[h!]
     \centering
     \subfloat[$Q_d$:5 on diagonal]{\includegraphics[width=0.3\textwidth]{figures/lab4test1pitch.png}}\hfill
@@ -113,43 +113,6 @@ From this it seems that it is indifferent which of them is chosen for the Kalman
     \caption{Time series of pitch and elevation rate during three tests.}
     \label{fig:lab4_charts}
 \end{figure}           
-
-\begin{figure}[h]
-    \centering
-    \begin{minipage}{0.45\textwidth} % Adjust the width as needed
-        \centering
-        \begin{tabular}{||c c c c||} 
-            \hline
-            Test & Mean & Std & Max abs value \\ [0.5ex] 
-            \hline\hline
-            1 & 0.265 & 0.515 & 1.80  \\ 
-            \hline
-            2 & 0.256 & 0.467 & 1.26 \\
-            \hline
-            3 & 0.209 & 0.506 & 2.06  \\[1ex]
-            \hline
-        \end{tabular}
-        \caption{Results for predicted pitch}
-        \label{tab:res_lab4pich}
-    \end{minipage}
-    \hfill
-    \begin{minipage}{0.45\textwidth} % Adjust the width as needed
-        \centering
-        \begin{tabular}{||c c c c||} 
-            \hline
-            Test & Mean & Std & Max abs value \\ [0.5ex] 
-            \hline\hline
-            1 & 0.0515 & 0.398 & 1.47   \\ 
-            \hline
-            2 & 0.0591 & 0.454 & 1.78  \\
-            \hline
-            3 & 0.0445 & 0.340 & 1.34 \\[1ex]
-            \hline
-        \end{tabular}
-        \caption{Results for predicted elevation rate}
-        \label{tab:res_lab4elerate}
-    \end{minipage}
-\end{figure}
 
 
 \subsection{Conclusion}
