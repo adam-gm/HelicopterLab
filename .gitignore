@@ -181,3 +181,14 @@ TSWLatexianTemp*
 
 # KBibTeX
 *~[0-9]*
+labreport.pdf
+labreport.pdf
+labreport.synctex.gz
+*.aux
+*.fls
+*.log
+*.out
+*.toc
+*.pdf
+*.log
+*.pdf
