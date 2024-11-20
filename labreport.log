@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.30)  20 NOV 2024 03:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.30)  20 NOV 2024 03:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -796,44 +796,47 @@ LaTeX Info: Redefining \labelcpageref on input line 2370.
 Package cleveref Info: `listings' support loaded on input line 3131.
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
-)) (/usr/local/texlive/2023/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count456
-\float@exts=\toks40
-\float@box=\box67
-\@float@everytoks=\toks41
-\@floatcapt=\box68
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen282
+\captionmargin=\dimen283
+\caption@leftmargin=\dimen284
+\caption@rightmargin=\dimen285
+\caption@width=\dimen286
+\caption@indent=\dimen287
+\caption@parindent=\dimen288
+\caption@hangindent=\dimen289
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count456
+\c@continuedfloat=\count457
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+\c@KVtest=\count458
+\sf@farskip=\skip80
+\sf@captopadj=\dimen290
+\sf@capskip=\skip81
+\sf@nearskip=\skip82
+\c@subfigure=\count459
+\c@subfigure@save=\count460
+\c@lofdepth=\count461
+\c@subtable=\count462
+\c@subtable@save=\count463
+\c@lotdepth=\count464
+\sf@top=\skip83
+\sf@bottom=\skip84
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'USenglish'.
- (./labreport.aux (./intro.aux) (./part1.aux) (./part2.aux
 
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `@cref' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `@cref' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `@cref' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `@cref' multiply defined.
-
-) (./part3.aux) (./conclusion.aux) (./appendix.aux))
+No file labreport.aux.
 \openout1 = `labreport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -854,30 +857,29 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
-
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count457
-\scratchdimen=\dimen282
-\scratchbox=\box69
-\nofMPsegments=\count458
-\nofMParguments=\count459
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count460
-\MPscratchDim=\dimen283
-\MPnumerator=\count461
-\makeMPintoPDFobject=\count462
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count465
+\scratchdimen=\dimen291
+\scratchbox=\box67
+\nofMPsegments=\count466
+\nofMParguments=\count467
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count468
+\MPscratchDim=\dimen292
+\MPnumerator=\count469
+\makeMPintoPDFobject=\count470
+\everyMPtoPDFconversion=\toks41
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count463
+\c@lstlisting=\count471
 
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will most likely cause issues with the appearance of inserted todonotes. The issue can be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to loading the todonotes package. on input line 7.
@@ -918,10 +920,12 @@ Package biblatex Info: ... file 'labreport.bbl' found.
 Package biblatex Info: Reference section=0 on input line 7.
 Package biblatex Info: Reference segment=0 on input line 7.
 Package hyperref Info: Link coloring OFF on input line 7.
- (./labreport.out) (./labreport.out)
 \@outlinefile=\write5
 \openout5 = `labreport.out'.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -930,7 +934,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<figures/itk_ntnu.jpg, id=102, 446.26724pt x 288.47775pt>
+<figures/itk_ntnu.jpg, id=7, 446.26724pt x 288.47775pt>
 File: figures/itk_ntnu.jpg Graphic file (type jpg)
 <use figures/itk_ntnu.jpg>
 Package pdftex.def Info: figures/itk_ntnu.jpg  used on input line 17.
@@ -946,69 +950,150 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.29 \newpage
-              [1] (./labreport.toc)
+              [1]
+No file labreport.toc.
 \tf@toc=\write6
 \openout6 = `labreport.toc'.
 
- [2]
+[2]
 \openout2 = `intro.aux'.
 
- (./intro.tex
+ (./intro.tex)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.18 
-      [1
+l.36 \include{intro}
+                     [1
 
 ]
-Overfull \hbox (16.05333pt too wide) in paragraph at lines 19--20
-\T1/cmr/m/n/10.95 any-thing on your com-puter. Tex-maker at []$\T1/cmtt/m/n/10.95 http : / / www . xm1math . net / texmaker/$[]
- []
+\openout2 = `monovariable_control.aux'.
+
+ (./monovariable_control.tex
+
+LaTeX Warning: Reference `eq:lin_model' on page 2 undefined on input line 4.
 
 
-LaTeX Warning: Reference `sec:latex_tips' on page 1 undefined on input line 24.
+LaTeX Warning: Reference `eq:model_1' on page 2 undefined on input line 5.
 
-)
+
+LaTeX Warning: Reference `fig:helicopter' on page 2 undefined on input line 5.
+
+
+LaTeX Warning: Reference `pic:heli_model' on page 2 undefined on input line 17.
+
+
+LaTeX Warning: Reference `pic:heli_model' on page 2 undefined on input line 19.
+
+
+LaTeX Warning: Reference `eq:PD' on page 2 undefined on input line 20.
+
+
+LaTeX Warning: Reference `eq:pole_place' on page 2 undefined on input line 22.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 \include{intro}
-                     [2]
+l.36 	\end{align}
+                  [2
+
+
+
+]
+
+LaTeX Warning: Reference `tab:testskjema_lab1' on page 3 undefined on input line 48.
+
+
+LaTeX Warning: Reference `fig:pitch_plot' on page 3 undefined on input line 87.
+
+
+LaTeX Warning: Reference `fig:pitch_plot' on page 3 undefined on input line 91.
+
+[3]
+<figures/pitchlab1.png, id=75, 421.3341pt x 333.8874pt>
+File: figures/pitchlab1.png Graphic file (type png)
+<use figures/pitchlab1.png>
+Package pdftex.def Info: figures/pitchlab1.png  used on input line 98.
+(pdftex.def)             Requested size: 360.0pt x 285.29327pt.
+ [4 <./figures/pitchlab1.png>]) [5]
+\openout2 = `lab4.aux'.
+
+ (./lab4.tex
+
+LaTeX Warning: Reference `eq:discrete_model' on page 6 undefined on input line 9.
+
+
+LaTeX Warning: Reference `eq:discrete_matrices' on page 6 undefined on input line 9.
+
+[6
+
+
+
+]
+
+LaTeX Warning: Reference `eq:slow_sample' on page 7 undefined on input line 73.
+
+
+LaTeX Warning: Reference `eq:noise_est' on page 7 undefined on input line 83.
+
+[7]
+<figures/lab4test1pitch.png, id=119, 421.3341pt x 333.8874pt>
+File: figures/lab4test1pitch.png Graphic file (type png)
+<use figures/lab4test1pitch.png>
+Package pdftex.def Info: figures/lab4test1pitch.png  used on input line 107.
+(pdftex.def)             Requested size: 108.0011pt x 85.58594pt.
+<figures/lab4test2pitch.png, id=120, 421.3341pt x 333.8874pt>
+File: figures/lab4test2pitch.png Graphic file (type png)
+<use figures/lab4test2pitch.png>
+Package pdftex.def Info: figures/lab4test2pitch.png  used on input line 108.
+(pdftex.def)             Requested size: 108.0011pt x 85.58594pt.
+<figures/lab4test3pitch.png, id=121, 421.3341pt x 333.8874pt>
+File: figures/lab4test3pitch.png Graphic file (type png)
+<use figures/lab4test3pitch.png>
+Package pdftex.def Info: figures/lab4test3pitch.png  used on input line 109.
+(pdftex.def)             Requested size: 108.0011pt x 85.58594pt.
+<figures/lab4test1ele.png, id=122, 421.3341pt x 337.5009pt>
+File: figures/lab4test1ele.png Graphic file (type png)
+<use figures/lab4test1ele.png>
+Package pdftex.def Info: figures/lab4test1ele.png  used on input line 110.
+(pdftex.def)             Requested size: 108.0011pt x 86.51219pt.
+<figures/lab4test2ele.png, id=123, 421.3341pt x 333.8874pt>
+File: figures/lab4test2ele.png Graphic file (type png)
+<use figures/lab4test2ele.png>
+Package pdftex.def Info: figures/lab4test2ele.png  used on input line 111.
+(pdftex.def)             Requested size: 108.0011pt x 85.58594pt.
+<figures/lab4test3ele.png, id=124, 421.3341pt x 333.8874pt>
+File: figures/lab4test3ele.png Graphic file (type png)
+<use figures/lab4test3ele.png>
+Package pdftex.def Info: figures/lab4test3ele.png  used on input line 112.
+(pdftex.def)             Requested size: 108.0011pt x 85.58594pt.
+) [8 <./figures/lab4test1pitch.png> <./figures/lab4test2pitch.png> <./figures/lab4test3pitch.png> <./figures/lab4test1ele.png> <./figures/lab4test2ele.png> <./figures/lab4test3ele.png>]
 \openout2 = `part1.aux'.
 
- (./part1.tex
-Overfull \hbox (6.30103pt too wide) in paragraph at lines 16--19
-\T1/cmr/m/n/10.95 Equa-tion ([]5a[])'') or ref-er-ence the en-tire model (``the lin-ear model Equa-tion ([]5[])'').
- []
 
-<figures/layers_openloop.pdf, id=187, 337.6615pt x 225.2415pt>
-File: figures/layers_openloop.pdf Graphic file (type pdf)
-<use figures/layers_openloop.pdf>
-Package pdftex.def Info: figures/layers_openloop.pdf  used on input line 37.
-(pdftex.def)             Requested size: 360.0pt x 240.14334pt.
-<figures/forces.pdf, id=188, 437.39009pt x 290.08376pt>
-File: figures/forces.pdf Graphic file (type pdf)
-<use figures/forces.pdf>
-Package pdftex.def Info: figures/forces.pdf  used on input line 44.
-(pdftex.def)             Requested size: 360.0pt x 238.76433pt.
-) [3
-
-
-
-] [4
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.37 \include{part1}
-                    
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.37 \include{part1}
-                     <./figures/layers_openloop.pdf> <./figures/forces.pdf>]
+No file part1.tex.
 \openout2 = `part2.aux'.
 
- (./part2.tex [5
+(./part2.tex
+
+LaTeX Warning: Reference `eq:lab2-system1' on page 9 undefined on input line 10.
+
+
+LaTeX Warning: Reference `eq:lab2-controllability' on page 9 undefined on input line 24.
+
+
+LaTeX Warning: Reference `eq:lab2-control-rule' on page 9 undefined on input line 33.
+
+
+LaTeX Warning: Reference `eq:lab2-F' on page 9 undefined on input line 33.
+
+
+LaTeX Warning: Reference `eq:lab2-system2' on page 9 undefined on input line 45.
+
+[9
+
+
+
 
 
 
@@ -1030,12 +1115,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 94.
 
-<figures/lab2-test1.png, id=267, 462.528pt x 346.896pt>
+
+./part2.tex:96: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.96 \begin{figure}[H]
+                      
+Option `H' ignored and `p' used.
+
+<figures/lab2-test1.png, id=161, 462.528pt x 346.896pt>
 File: figures/lab2-test1.png Graphic file (type png)
 <use figures/lab2-test1.png>
 Package pdftex.def Info: figures/lab2-test1.png  used on input line 98.
 (pdftex.def)             Requested size: 216.0022pt x 162.00366pt.
-[6{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 104.
@@ -1053,7 +1148,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 104.
 
-<figures/lab2-test2.png, id=274, 462.528pt x 346.896pt>
+
+./part2.tex:106: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.106 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+<figures/lab2-test2.png, id=162, 462.528pt x 346.896pt>
 File: figures/lab2-test2.png Graphic file (type png)
 <use figures/lab2-test2.png>
 Package pdftex.def Info: figures/lab2-test2.png  used on input line 108.
@@ -1075,22 +1181,23 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 113.
 
-<figures/lab2-test3.png, id=275, 462.528pt x 346.896pt>
+
+./part2.tex:115: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+<figures/lab2-test3.png, id=163, 462.528pt x 346.896pt>
 File: figures/lab2-test3.png Graphic file (type png)
 <use figures/lab2-test3.png>
 Package pdftex.def Info: figures/lab2-test3.png  used on input line 117.
 (pdftex.def)             Requested size: 216.0022pt x 162.00366pt.
-[7
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.121 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.121 
-       <./figures/lab2-test1.png> <./figures/lab2-test2.png>]
+[10{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [11 <./figures/lab2-test1.png> <./figures/lab2-test2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 122.
@@ -1108,7 +1215,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 122.
 
-<figures/lab2-test4.png, id=284, 462.528pt x 346.896pt>
+
+./part2.tex:124: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+<figures/lab2-test4.png, id=183, 462.528pt x 346.896pt>
 File: figures/lab2-test4.png Graphic file (type png)
 <use figures/lab2-test4.png>
 Package pdftex.def Info: figures/lab2-test4.png  used on input line 126.
@@ -1130,87 +1248,33 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 131.
 
-<figures/lab2-test5.png, id=285, 462.528pt x 346.896pt>
+
+./part2.tex:133: LaTeX Error: Unknown float option `H'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 \begin{figure}[H]
+                       
+Option `H' ignored and `p' used.
+
+<figures/lab2-test5.png, id=184, 462.528pt x 346.896pt>
 File: figures/lab2-test5.png Graphic file (type png)
 <use figures/lab2-test5.png>
 Package pdftex.def Info: figures/lab2-test5.png  used on input line 135.
 (pdftex.def)             Requested size: 216.0022pt x 162.00366pt.
-[8
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.139 
-      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.139 
-       <./figures/lab2-test3.png> <./figures/lab2-test4.png>]) [9
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.38 \include{part2}
-                     <./figures/lab2-test5.png>]
+) [12] [13 <./figures/lab2-test3.png> <./figures/lab2-test4.png> <./figures/lab2-test5.png>]
 \openout2 = `part3.aux'.
 
- (./part3.tex [10
 
-
-
-]
-<figures/constraint_jpg.jpg, id=323, 563.10374pt x 420.57124pt>
-File: figures/constraint_jpg.jpg Graphic file (type jpg)
-<use figures/constraint_jpg.jpg>
-Package pdftex.def Info: figures/constraint_jpg.jpg  used on input line 18.
-(pdftex.def)             Requested size: 288.0011pt x 215.10457pt.
-<figures/constraint_png.png, id=324, 422.32782pt x 315.42844pt>
-File: figures/constraint_png.png Graphic file (type png)
-<use figures/constraint_png.png>
-Package pdftex.def Info: figures/constraint_png.png  used on input line 25.
-(pdftex.def)             Requested size: 288.0011pt x 215.10938pt.
-<figures/constraint_png_large.png, id=325, 876.27374pt x 686.565pt>
-File: figures/constraint_png_large.png Graphic file (type png)
-<use figures/constraint_png_large.png>
-Package pdftex.def Info: figures/constraint_png_large.png  used on input line 32.
-(pdftex.def)             Requested size: 288.0011pt x 225.65572pt.
-Package epstopdf Info: Source file: <figures/constraint_eps.eps>
-(epstopdf)                    date: 2024-11-20 03:26:00
-(epstopdf)                    size: 146505 bytes
-(epstopdf)             Output file: <figures/constraint_eps-eps-converted-to.pdf>
-(epstopdf)                    date: 2024-11-20 03:26:00
-(epstopdf)                    size: 7497 bytes
-(epstopdf)             Command: <repstopdf --outfile=figures/constraint_eps-eps-converted-to.pdf figures/constraint_eps.eps>
-(epstopdf)             \includegraphics on input line 39.
-Package epstopdf Info: Output file is already uptodate.
-<figures/constraint_eps-eps-converted-to.pdf, id=326, 421.575pt x 316.18124pt>
-File: figures/constraint_eps-eps-converted-to.pdf Graphic file (type pdf)
-<use figures/constraint_eps-eps-converted-to.pdf>
-Package pdftex.def Info: figures/constraint_eps-eps-converted-to.pdf  used on input line 39.
-(pdftex.def)             Requested size: 288.0011pt x 216.00389pt.
-) [11
-pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.39 \include{part3}
-                     <./figures/constraint_jpg.jpg>] [12
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.39 \include{part3}
-                    
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.39 \include{part3}
-                     <./figures/constraint_png.png (PNG copy)> <./figures/constraint_png_large.png (PNG copy)>] [13
-pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.39 \include{part3}
-                     <./figures/constraint_eps-eps-converted-to.pdf>]
+No file part3.tex.
 \openout2 = `conclusion.aux'.
 
- (./conclusion.tex) [14
+(./conclusion.tex) [14
+
+
+
 
 
 
@@ -1220,49 +1284,54 @@ l.39 \include{part3}
  (./appendix.tex
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 8.
  (./code/plot_constraint.m)
-<figures/simulink.pdf, id=360, 742.41618pt x 316.55594pt>
-File: figures/simulink.pdf Graphic file (type pdf)
-<use figures/simulink.pdf>
-Package pdftex.def Info: figures/simulink.pdf  used on input line 15.
-(pdftex.def)             Requested size: 360.0pt x 153.50044pt.
+
+LaTeX Warning: Reference `fig:simulink' on page 1 undefined on input line 9.
+
 ) [15
 
 
 
-] [16
-pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.41 \include{appendix}
-                        <./figures/simulink.pdf>] [17
+]
 
+LaTeX Warning: Empty bibliography on input line 50.
 
-] (./labreport.aux (./intro.aux) (./part1.aux) (./part2.aux) (./part3.aux) (./conclusion.aux) (./appendix.aux))
+(./labreport.aux (./intro.aux) (./monovariable_control.aux) (./lab4.aux) (./part1.aux) (./part2.aux) (./part3.aux) (./conclusion.aux) (./appendix.aux))
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: File `labreport.out' has not changed.
-(rerunfilecheck)             Checksum: 22123281F39095DA9A163C461DF64F97;3051.
+
+Package rerunfilecheck Warning: File `labreport.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `labreport.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  27F21A4CD3CC58FFC25FADD42058336A;3434.
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                labreport
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'labreport.run.xml'.
 \openout1 = `labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34190 strings out of 476025
- 645529 string characters out of 5790017
- 1874388 words of memory out of 5000000
- 53957 multiletter control sequences out of 15000+600000
- 538568 words of font info for 102 fonts, out of 8000000 for 9000
+ 35396 strings out of 476025
+ 669343 string characters out of 5790017
+ 1872388 words of memory out of 5000000
+ 55155 multiletter control sequences out of 15000+600000
+ 535812 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 114i,9n,108p,2058b,1839s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on labreport.pdf (20 pages, 649682 bytes).
+ 114i,14n,133p,2059b,1846s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on labreport.pdf (18 pages, 780941 bytes).
 PDF statistics:
- 542 PDF objects out of 1000 (max. 8388607)
- 432 compressed objects within 5 object streams
- 95 named destinations out of 1000 (max. 500000)
- 270 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 365 PDF objects out of 1000 (max. 8388607)
+ 268 compressed objects within 3 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
