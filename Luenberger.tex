@@ -141,13 +141,13 @@ The reasoning was that smaller values of poles will correspond to slower estimat
 The first value was bad, the second was okay, and the third had a good smooth result but had a offset.
 \vspace{2em}
 For the smaller pole values the estimates are less accurate. And for the larger pole values there is a offset(lag). 
-For some estimates the difference is hard to spot like for the measurement and estimator for the apple figures.
-The difference between small and big pole values can clearly be seen between Blueberry 1(figure z) and Blueberry 4(figure y). 
+For some estimates the difference is hard to spot like for the measurement and estimator for all the pitch figures 1-4.
+The difference between small and big pole values can clearly be seen between Elevation rate 1 and Elevation rate 4. 
 For the smaller pole values the estimates are less accurate. And for the larger pole values there is a offset(lag). 
-For some estimates the difference is hard to spot like for the Apples.
-The difference between small and big pole values can clearly be seen between Blueberry 1(figure z) and Blueberry 4(figure y). 
-Blueberry 1 is a faster estimator with more noise. Which corresponds to bigger absolute values of the poles.
-Blueberry 4 is a slower estimator with more lag which corresponds to lower absolute pole values. 
+For some estimates the difference is hard to spot like for the pitch figures.
+The difference between small and big pole values can clearly be seen between Elevation rate 1 and Elevation rate 4. 
+Elevation rate 1 is a faster estimator with more noise. Which corresponds to bigger absolute values of the poles.
+Elevation rate 4 is a slower estimator with more lag which corresponds to lower absolute pole values. 
 
 
 \title{\textbf{Conclusion}}
@@ -166,17 +166,46 @@ make the system stable.
 The L matrix in the observer scales the deviation between the measured and
 estimated states.
 \noindent
-Based on the plots, the elevation estimation seems to be working correctly as
-it has very few deviations from the actual measurement.
+Based on the plots, the pitch estimation seems to be working correctly as
+it has very few deviations from the actual measurement. The elevation rate for test 4 seems to be a too slow estimator because its got lag.
+While the elevation rate for test 1 seems too noisy. The elevation rate of the estimator and the measurements didnt fit perfectly for the poles we did.
 
+\vspace{2em}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{LabTest1(Apple)fixed.png}
+    \caption{Pitch for test 1}
+    \label{fig:enter-label}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{LabTest2(Apple)fixed.png}
+    \caption{Pitch for test 2}
+    \label{fig:enter-label}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{LabTest3(Apple)fixed.png}
+    \caption{Pitch for test 3}
+    \label{fig:enter-label}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{LabTest4(Apple)fixed.png}
+    \caption{Pitch for test 4}
+    \label{fig:enter-label}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{LabTest1(Blueberry).png}
+    \caption{Elevation rate for test 1}
+    \label{fig:enter-label}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{LabTest4(Blueberry).png}
+    \caption{Elevation rate for test 4}
+    \label{fig:enter-label}
+\end{figure}
 
-\includegraphics{LabTest1(Apple)fixed.png}
-\includegraphics{LabTest2(Apple)fixed.png}
-
-\includegraphics{LabTest3(Apple)fixed.png}
-\includegraphics{LabTest4(Apple)fixed.png}
-
-
-\includegraphics{LabTest1(Blueberry).png}
-\includegraphics{LabTest4(Blueberry).png}
 
