@@ -835,8 +835,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'USenglish'.
-
-No file labreport.aux.
+ (./labreport.aux)
 \openout1 = `labreport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -857,6 +856,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
+
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
 
@@ -1320,8 +1320,8 @@ Package logreq Info: Writing requests to 'labreport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35396 strings out of 476025
- 669343 string characters out of 5790017
+ 35398 strings out of 476025
+ 669371 string characters out of 5790017
  1872388 words of memory out of 5000000
  55155 multiletter control sequences out of 15000+600000
  535812 words of font info for 97 fonts, out of 8000000 for 9000
